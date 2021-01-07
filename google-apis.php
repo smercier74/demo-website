@@ -1,7 +1,7 @@
 <?php
 echo "Hello";
 
-echo CallAPI("GET","https://servicemanagement.googleapis.com/$discovery/rest?version=v1");
+echo CallAPI("GET","https://discovery.googleapis.com/discovery/v1/apis");
 
 function CallAPI($method, $url, $data = false)
 {
